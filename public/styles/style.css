@@ -1,0 +1,57 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background-color: black;
+}
+
+@keyframes move-twink-back {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -10000px 5000px;
+  }
+}
+
+.bg-stars,
+.bg-twinkling {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.bg-stars {
+  background-image: url(../assets/stars.png);
+  background-repeat: repeat;
+  background-position: top center;
+  z-index: 0;
+}
+
+.bg-twinkling {
+  background-image: url(../assets/twinkling.png);
+  background-color: transparent;
+  background-repeat: repeat;
+  background-position: top center;
+  z-index: 1;
+
+  animation: move-twink-back 200s linear infinite;
+}
+
+.planets-container {
+  position: absolute;
+  z-index: 1;
+}
+
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}

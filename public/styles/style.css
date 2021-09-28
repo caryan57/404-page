@@ -2,12 +2,11 @@
   box-sizing: content-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;500;700&display=swap');
-
 body {
   background-color: black;
-  font-family: 'JetBrains Mono',
+  font-family: 'Share Tech Mono',
     monospace;
+
 }
 
 @keyframes move-twink-back {
@@ -99,7 +98,6 @@ body {
 }
 
 .hero-content .info {
-  font-weight: 100;
   font-size: 30px;
   margin: 0;
 }

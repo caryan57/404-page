@@ -125,3 +125,19 @@ body {
 .back:hover {
   background-color: #6D060A;
 }
+
+.asteroid-1 {
+  width: 20%;
+}
+
+.asteroid-2 {
+  width: 10%;
+}
+
+.asteroid-3 {
+  width: 20%;
+}
+
+.asteroid-4 {
+  width: 10%;
+}

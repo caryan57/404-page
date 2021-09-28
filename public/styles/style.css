@@ -61,15 +61,29 @@ body {
 }
 
 .hero-astronaut {
-  display: flex;
+  position: relative;
+}
+
+.hero-astronaut .astronaut {
+  position: relative;
+  z-index: 1;
 }
 
 .hero-astronaut .astronaut-line {
   position: absolute;
+  margin: 0 auto;
+  left: 175px;
+  top: -95px;
+  right: 0;
+  z-index: 0;
 }
 
 .hero-astronaut .astronaut-rocket {
   position: absolute;
+  margin: 0 auto;
+  left: 460px;
+  right: 0;
+  top: -94px;
 }
 
 .hero-content {
@@ -87,4 +101,27 @@ body {
   font-weight: 100;
   font-size: 30px;
   margin: 0;
+}
+
+.hero-buttons {
+  margin-top: 15px;
+  font-size: 19px;
+}
+
+.home,
+.back {
+  text-transform: uppercase;
+  width: 100px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home:hover,
+.back:hover {
+  background-color: #6D060A;
 }

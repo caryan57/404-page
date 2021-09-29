@@ -164,3 +164,58 @@ body {
   top: 840px;
   bottom: 0;
 }
+
+@media screen and (max-width: 425px) {
+  .hero-astronaut .astronaut {
+    width: 200px;
+  }
+
+  .hero-astronaut .astronaut-line {
+    width: 160px;
+    left: 95px;
+    top: -52px;
+  }
+
+  .hero-astronaut .astronaut-rocket {
+    width: 55px;
+    left: 230px;
+    top: -53px;
+  }
+
+  .hero-content {
+    margin-top: 20px;
+  }
+
+  .hero-content .title,
+  .hero-content .info {
+    margin-top: 10px;
+  }
+
+  .hero-buttons {
+    margin-top: 20px;
+  }
+
+  .asteroid-1 {
+    width: 30px;
+    right: 320px;
+    top: 830px;
+  }
+
+  .asteroid-2 {
+    width: 40px;
+    right: 0;
+    left: -230px;
+    top: 160px;
+  }
+
+  .asteroid-3 {
+    left: 300px;
+    right: 0;
+    top: 70px;
+    opacity: 0.8;
+  }
+
+  .asteroid-4 {
+    display: none;
+  }
+}
